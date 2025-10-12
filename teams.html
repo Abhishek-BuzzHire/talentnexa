@@ -28,53 +28,58 @@
     </div>
     <section class="section-header bg-gray-900">
         <div class="logo-menu bg-white">
-            <a href="/">
-                <div class="tn-logo">
-                    <img src="images/TNLogo.png" alt="Talent-Nexa-Consulting" />
-                </div>
-            </a>
-            <div class="menu">
-                <a data-w-id="5b783080-8702-f829-5956-04afd309e642" href="/" class="link-on-light w-inline-block">
-                    <div class="text-size-caps-tiny">Home</div>
-                    <div class="underline-link dark-line-transparent">
-                        <div class="underline-on-hover dark-line"></div>
-                    </div>
-                </a>
-                <a data-w-id="5b783080-8702-f829-5956-04afd309e642" href="about.html"
-                    class="link-on-light w-inline-block">
-                    <div class="text-size-caps-tiny">About</div>
-                    <div class="underline-link dark-line-transparent">
-                        <div class="underline-on-hover dark-line"></div>
-                    </div>
-                </a><a data-w-id="5b783080-8702-f829-5956-04afd309e642" href="services.html" 
-                    class="link-on-light w-inline-block">
-                    <div class="text-size-caps-tiny">Services</div>
-                    <div class="underline-link dark-line-transparent">
-                        <div class="underline-on-hover dark-line"></div>
-                    </div>
-                </a>
-                <a data-w-id="5b783080-8702-f829-5956-04afd309e642" href="/"
-                    class="link-on-light w-inline-block">
-                    <div class="text-size-caps-tiny">Approach</div>
-                    <div class="underline-link dark-line-transparent">
-                        <div class="underline-on-hover dark-line"></div>
-                    </div>
-                </a>
-                <a data-w-id="5b783080-8702-f829-5956-04afd309e642" href="#"
-                    class="link-on-light w-inline-block">
-                    <div class="text-size-caps-tiny">Team</div>
-                    <div class="underline-link dark-line-transparent">
-                        <div class="underline-on-hover dark-line"></div>
-                    </div>
-                </a><a data-w-id="5b783080-8702-f829-5956-04afd309e642" href="contact.html" 
-                    class="link-on-light w-inline-block">
-                    <div class="text-size-caps-tiny">Contact</div>
-                    <div class="underline-link dark-line-transparent">
-                        <div class="underline-on-hover dark-line"></div>
-                    </div>
-                </a>
-            </div>
+      <a href="/">
+        <div class="tn-logo">
+          <img src="images/TNLogo.png" alt="Talent-Nexa-Consulting" />
         </div>
+      </a>
+
+      <!-- Hamburger Icon -->
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="menu" id="menu">
+        <a href="/" class="link-on-light w-inline-block">
+          <div class="text-size-caps-tiny">Home</div>
+          <div class="underline-link dark-line-transparent">
+            <div class="underline-on-hover dark-line"></div>
+          </div>
+        </a>
+        <a href="about.html"   class="link-on-light w-inline-block">
+          <div class="text-size-caps-tiny">About</div>
+          <div class="underline-link dark-line-transparent">
+            <div class="underline-on-hover dark-line"></div>
+          </div>
+        </a>
+        <a href="services.html"   class="link-on-light w-inline-block">
+          <div class="text-size-caps-tiny">Services</div>
+          <div class="underline-link dark-line-transparent">
+            <div class="underline-on-hover dark-line"></div>
+          </div>
+        </a>
+        <a href="/" class="link-on-light w-inline-block">
+          <div class="text-size-caps-tiny">Approach</div>
+          <div class="underline-link dark-line-transparent">
+            <div class="underline-on-hover dark-line"></div>
+          </div>
+        </a>
+        <a href="#"   class="link-on-light w-inline-block">
+          <div class="text-size-caps-tiny">Team</div>
+          <div class="underline-link dark-line-transparent">
+            <div class="underline-on-hover dark-line"></div>
+          </div>
+        </a>
+        <a href="contact.html"   class="link-on-light w-inline-block">
+          <div class="text-size-caps-tiny">Contact</div>
+          <div class="underline-link dark-line-transparent">
+            <div class="underline-on-hover dark-line"></div>
+          </div>
+        </a>
+      </div>
+    </div>
 
         <div class="margin-bottom-40px">
             <div class="wrap-logo-dark">
@@ -269,6 +274,14 @@
             </section>
         </div>
     </footer>
+    <script>const hamburger = document.getElementById('hamburger');
+    const menu = document.getElementById('menu');
+
+    hamburger.addEventListener('click', () => {
+      menu.classList.toggle('active');
+      hamburger.classList.toggle('active');
+    });
+  </script>
 </body>
 
 </html>
