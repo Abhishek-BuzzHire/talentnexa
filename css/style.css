@@ -2475,7 +2475,7 @@ figcaption {
 
 .text-size-caps-tiny {
   letter-spacing: .25em;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-size: 20px;
   font-weight: 700;
   line-height: 180%;
@@ -2499,6 +2499,7 @@ figcaption {
 
 .section-about {
   padding-top: 90px;
+  padding-bottom: 90px;
   position: relative;
 }
 
@@ -3361,7 +3362,7 @@ figcaption {
   align-items: flex-start;
   width: 100%;
   font-family: Unbounded, sans-serif;
-  font-size: 10vw;
+  font-size: 5vw;
   font-weight: 500;
   line-height: 1;
   display: flex;
@@ -3589,7 +3590,7 @@ figcaption {
   align-items: flex-start;
   width: 100%;
   font-family: Unbounded, sans-serif;
-  font-size: 10vw;
+  font-size: 5vw;
   font-weight: 500;
   line-height: 1;
   display: flex;
@@ -8266,7 +8267,7 @@ figcaption {
 }
 
 .clients-logos {
-  margin-top: 40px;
+  margin-top: 5px;
 }
 
 .clients-logos .logos {
