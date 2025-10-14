@@ -2904,11 +2904,11 @@ figcaption {
 
 .text-cta2 {
   color: var(--text-color-light);
-  text-align: center;
+  text-align: left;
   max-width: 680px;
   font-family: Satoshi, sans-serif;
   font-size: 40px;
-  margin-left: 70px;
+  margin-left: 250px;
   font-weight: 700;
   line-height: 115%;
 }
